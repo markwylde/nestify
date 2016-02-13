@@ -1,0 +1,22 @@
+{
+  "name": "nestify",
+  "version": "1.0.0",
+  "description": "A utility library to convert between nested and flattened arrays or objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha lib/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/nestify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markwylde/nestify/issues"
+  },
+  "homepage": "https://github.com/markwylde/nestify#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
