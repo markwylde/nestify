@@ -1,6 +1,6 @@
 {
   "name": "nestify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A utility library to convert between nested and flattened arrays or objects.",
   "main": "lib/index.js",
   "scripts": {
