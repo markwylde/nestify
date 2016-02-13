@@ -46,7 +46,7 @@ var result = nestify({
 ```
 
 > Note that the first argument of `nestify` is not required and therefore you 
-> could use the command like below if you are happy with the default parameters:
+> could use the command like below if you are happy with the default options:
 >
 >```javascript
 > var result = nestify(flattened)
@@ -117,7 +117,7 @@ var result = flatify({
 ```
 
 > Note that the first argument of `flatify` is not required and therefore you 
-> could use the command like below if you are happy with the default parameters:
+> could use the command like below if you are happy with the default options:
 >
 >```javascript
 > var result = flatify(nested)
