@@ -48,7 +48,7 @@ describe('Flatify', function() {
     const result = flatify({
       id: 'id',
       parentId: 'parentId',
-      childrenContainer: 'children'
+      children: 'children'
     }, nested)
 
     assert.deepEqual(result, flattened)
@@ -106,7 +106,7 @@ describe('Flatify', function() {
     const result = flatify({
       id: 'id',
       parentId: 'parentId',
-      childrenContainer: 'children'
+      children: 'children'
     }, nested)
 
     assert.deepEqual(result, flattened)

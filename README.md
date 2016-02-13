@@ -41,7 +41,7 @@ const flattened = [{
 const result = nestify({
   id: 'id',
   parentId: 'parentId',
-  childrenContainer: 'children'
+  children: 'children'
 }, flattened)
 ```
 
@@ -105,7 +105,7 @@ const nested = [{
 const result = flatify({
   id: 'id',
   parentId: 'parentId',
-  childrenContainer: 'children'
+  children: 'children'
 }, nested)
 ```
 
