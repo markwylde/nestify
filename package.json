@@ -1,6 +1,6 @@
 {
   "name": "nestify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility library to convert between nested and flattened arrays or objects.",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/markwylde/nestify.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/markwylde/nestify/issues"
   },
