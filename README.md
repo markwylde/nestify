@@ -14,7 +14,7 @@ Take a flattened array of objects and create an array of nested objects out of t
 ```javascript
 var nestify = require('nestify').nestify
 
-const flattened = [{
+var flattened = [{
   id: 1,
   name: 'Dogs'
 }, {
@@ -38,12 +38,19 @@ const flattened = [{
   name: 'Tabbys Child'
 }]
 
-const result = nestify({
+var result = nestify({
   id: 'id',
   parentId: 'parentId',
   children: 'children'
 }, flattened)
 ```
+
+> Note that the first argument of `nestify` is not required and therefore you 
+> could use the command like below if you are happy with the default parameters:
+>
+>```javascript
+> var result = nestify(flattened)
+> ```
 
 ```javascript
 result === [{
@@ -79,7 +86,7 @@ result === [{
 Take an array of nested objects and create a flattened array of objects out of them
 
 ```javascript
-const nested = [{
+var nested = [{
   id: 1,
   name: 'Dogs',
   children: [{
@@ -102,12 +109,19 @@ const nested = [{
   }]
 }]
 
-const result = flatify({
+var result = flatify({
   id: 'id',
   parentId: 'parentId',
   children: 'children'
 }, nested)
 ```
+
+> Note that the first argument of `flatify` is not required and therefore you 
+> could use the command like below if you are happy with the default parameters:
+>
+>```javascript
+> var result = flatify(nested)
+> ```
 
 ```javascript
 result === [{
