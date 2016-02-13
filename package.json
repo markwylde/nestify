@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/markwylde/nestify.git"
   },
-  "author": "",
+  "author": "mark.wylde@verl.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/markwylde/nestify/issues"
