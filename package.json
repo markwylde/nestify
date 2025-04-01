@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/markwylde/nestify#readme",
   "devDependencies": {
-    "mocha": "^10.5.2"
+    "mocha": "^11.1.0"
   }
 }
